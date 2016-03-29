@@ -1,0 +1,32 @@
+{
+    "name": "leopardrock/php-sms",
+    "description": "SMS delivery mechanisms (extracted from SMP for use in Hermes and Plutus)",
+    "keywords": [
+        "leopardrock", "kannel", "clickatell", "panaceamobile", "smsportal", "nexmo"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jacques Marneweck",
+            "email": "jacques@siberia.co.za"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ramsey/uuid": "~2.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.1",
+        "mockery/mockery": "~0.9",
+        "php-vcr/php-vcr": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leopardrock\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --configuration=tests/phpunit.xml",
+        "phpcs": "phpcs --standard=PSR2 ./src/*.php ./src/*/*.php"
+    }
+}
