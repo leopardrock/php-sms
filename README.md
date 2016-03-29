@@ -1,5 +1,9 @@
 # php-sms
 
+[![Code Climate](https://codeclimate.com/github/leopardrock/php-sms/badges/gpa.svg)](https://codeclimate.com/github/leopardrock/php-sms)
+[![Test Coverage](https://codeclimate.com/github/leopardrock/php-sms/badges/coverage.svg)](https://codeclimate.com/github/leopardrock/php-sms/coverage)
+[![Issue Count](https://codeclimate.com/github/leopardrock/php-sms/badges/issue_count.svg)](https://codeclimate.com/github/leopardrock/php-sms)
+
 SMS Delivery Mechanisms for PHP.
 
 ## COPYRIGHT
