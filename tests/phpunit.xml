@@ -1,0 +1,14 @@
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         colors="never"
+         debug="true"
+         syntaxCheck="true"
+         bootstrap="./bootstrap.php"
+         verbose="true">
+    <testsuite name="PHP SMS Suite">
+        <directory>./</directory>
+    </testsuite>
+    <logging>
+        <log type="coverage-html" target="../build/coverage"/>
+    </logging>
+</phpunit>
